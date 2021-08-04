@@ -174,10 +174,10 @@ body .subtitle {
 	letter-spacing: 1.1px;
 	padding-top: 15px;
 }
-@media (max-width: 430px) {
+@media (max-width: 675px) {
 	.container1__top {
 		max-width: 330px;
-		display: block;
+		display: inline-block;
 		margin: 0 auto;
 	}
 	.container1__title {
