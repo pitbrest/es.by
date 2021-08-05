@@ -208,7 +208,7 @@ body .subtitle {
 	color: #fff;
 	text-align: center;
 	background: url(../img/fisrt-section-bg.jpg) no-repeat bottom;
-	padding: 180px 0 120px 0;
+	padding: 180px 0 140px 0;
 	display: grid;
 	grid-template: 1fr / 1fr minmax(auto, 1170px) 1fr;
 }
@@ -263,7 +263,7 @@ body .subtitle {
 }
 @media (max-width: 500px) {
 	.container1__buttons {
-		padding: 100px 0 100px;
+		padding: 70px 0 100px;
 		display: inline-block;
 	}
 	.container1__buttons-item {
