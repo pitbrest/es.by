@@ -4,7 +4,7 @@
 	margin: 0 auto;
 	display: grid;
 	grid-template:
-		minmax(60px, auto) minmax(650px, auto) minmax(670px, auto) minmax(1400px, auto) minmax(1140px, auto) minmax(1140px, auto) minmax(1100px, auto) minmax(1250px, auto) minmax(80px, auto) / auto;
+		minmax(60px, auto) minmax(650px, auto) minmax(670px, auto) minmax(1400px, auto) minmax(1140px, auto) minmax(1140px, auto) minmax(1100px, auto) minmax(1250px, auto) minmax(80px, auto) / 1fr;
 	font-family: "Open Sans", sans-serif;
 	font-size: 15px;
 	line-height: 22px;
