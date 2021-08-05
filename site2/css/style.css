@@ -235,7 +235,7 @@ body .subtitle {
 		color: #fff;
 		text-align: center;
 		background: url(../img/fisrt-section-bg.jpg) no-repeat bottom;
-		padding: 60px 0 70px 0;
+		padding: 40px 0 70px 0;
 		display: grid;
 		grid-template: 1fr / 1fr minmax(auto, 1170px) 1fr;
 	}
@@ -281,7 +281,7 @@ body .subtitle {
 	}
 }
 .container1__buttons {
-	padding: 40px 0 100px;
+	padding: 30px 0 100px;
 	display: inline-block;
 }
 .container1__buttons-item {
@@ -293,7 +293,7 @@ body .subtitle {
 	border: 3px solid #fff;
 	color: #fff;
 	width: 250px;
-	margin: 20px 10px;
+	margin: 10px 10px;
 }
 .container1__buttons-item:hover {
 	background-color: #00897b;
