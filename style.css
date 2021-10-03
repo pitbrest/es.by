@@ -122,7 +122,7 @@ header .social-inst {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 150px;
 }
 .works-list {
 	display: flex;
@@ -184,6 +184,9 @@ header .social-inst {
 	.works-list {
 		border-top: 1px solid rgba(192, 192, 192, 0.404);
 	}
+	.works-lists {	
+	padding-top: 0;
+}
 }
 
 /***** container3 end ******/
