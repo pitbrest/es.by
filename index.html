@@ -168,7 +168,7 @@
 
 
 	<script>(function () {
-			function b() { var a = document.getElementById("gotop"); a || (a = document.createElement("a"), a.id = "gotop", a.className = "scrollTop", a.href = "#", a.style.display = "none", a.style.position = "fixed", a.style.zIndex = "9999", a.onclick = function (a) { a.preventDefault(); window.top.goTop() }, document.body.appendChild(a)); 300 < (document.body.scrollTop || document.documentElement.scrollTop) ? (a.style.display = "block", l(a, "show", 30, !1)) : l(a, "hide", 30, function () { a.style.display = "none" }); return !1 } function l(a, e, f, c) {
+			function b() { var a = document.getElementById("gotop"); a || (a = document.createElement("a"), a.id = "gotop", a.className = "scrollTop", a.href = "#", a.style.display = "none", a.style.position = "fixed", a.style.left = "10px", a.style.zIndex = "9999", a.onclick = function (a) { a.preventDefault(); window.top.goTop() }, document.body.appendChild(a)); 100 < (document.body.scrollTop || document.documentElement.scrollTop) ? (a.style.display = "block", l(a, "show", 30, !1)) : l(a, "hide", 30, function () { a.style.display = "none" }); return !1 } function l(a, e, f, c) {
 				function k() {
 					g <
 						h ? (d += 5, d < h ? window.top.timeout = setTimeout(k, f) : c && c()) : (d -= 5, d > h ? window.top.timeout = setTimeout(k, f) : c && c()); var e = a, b = d; e.style.opacity = b / 100; e.style.filter = "alpha(opacity=" + b + ")"
